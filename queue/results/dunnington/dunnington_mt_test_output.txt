@@ -1,0 +1,105 @@
+Thread mapping:
+Thread 0 @ package 0, core 0, hw thread 0 (cpuid: 0)
+Thread 1 @ package 1, core 0, hw thread 0 (cpuid: 3)
+Thread 2 @ package 2, core 0, hw thread 0 (cpuid: 6)
+Thread 3 @ package 3, core 0, hw thread 0 (cpuid: 9)
+Thread 4 @ package 0, core 1, hw thread 0 (cpuid: 1)
+Thread 5 @ package 1, core 1, hw thread 0 (cpuid: 4)
+Thread 6 @ package 2, core 1, hw thread 0 (cpuid: 7)
+Thread 7 @ package 3, core 1, hw thread 0 (cpuid: 10)
+Thread 8 @ package 0, core 2, hw thread 0 (cpuid: 2)
+Thread 9 @ package 1, core 2, hw thread 0 (cpuid: 5)
+Thread 10 @ package 2, core 2, hw thread 0 (cpuid: 8)
+Thread 11 @ package 3, core 2, hw thread 0 (cpuid: 11)
+Thread 12 @ package 0, core 3, hw thread 0 (cpuid: 12)
+Thread 13 @ package 1, core 3, hw thread 0 (cpuid: 15)
+Thread 14 @ package 2, core 3, hw thread 0 (cpuid: 18)
+Thread 15 @ package 3, core 3, hw thread 0 (cpuid: 21)
+Thread 16 @ package 0, core 4, hw thread 0 (cpuid: 13)
+Thread 17 @ package 1, core 4, hw thread 0 (cpuid: 16)
+Thread 18 @ package 2, core 4, hw thread 0 (cpuid: 19)
+Thread 19 @ package 3, core 4, hw thread 0 (cpuid: 22)
+Thread 20 @ package 0, core 5, hw thread 0 (cpuid: 14)
+Thread 21 @ package 1, core 5, hw thread 0 (cpuid: 17)
+Thread 22 @ package 2, core 5, hw thread 0 (cpuid: 20)
+Thread 23 @ package 3, core 5, hw thread 0 (cpuid: 23)
+Queue:stage_ff queue_size:128 iters:10000000 nsecs_to_spin:1 cycles_to_spin:2 cycles_per_iter:226.421385 cycles_per_iter_wo_delay:224.421385
+Queue:stage_lam queue_size:128 iters:10000000 nsecs_to_spin:1 cycles_to_spin:2 cycles_per_iter:1398.933748 cycles_per_iter_wo_delay:1396.933748
+Queue:stage_ff queue_size:128 iters:10000000 nsecs_to_spin:10 cycles_to_spin:26 cycles_per_iter:226.344364 cycles_per_iter_wo_delay:200.344364
+Queue:stage_lam queue_size:128 iters:10000000 nsecs_to_spin:10 cycles_to_spin:26 cycles_per_iter:1399.802457 cycles_per_iter_wo_delay:1373.802457
+Queue:stage_ff queue_size:128 iters:10000000 nsecs_to_spin:50 cycles_to_spin:133 cycles_per_iter:313.874092 cycles_per_iter_wo_delay:180.874092
+Queue:stage_lam queue_size:128 iters:10000000 nsecs_to_spin:50 cycles_to_spin:133 cycles_per_iter:1483.964438 cycles_per_iter_wo_delay:1350.964438
+Queue:stage_ff queue_size:128 iters:10000000 nsecs_to_spin:100 cycles_to_spin:267 cycles_per_iter:415.310094 cycles_per_iter_wo_delay:148.310094
+Queue:stage_lam queue_size:128 iters:10000000 nsecs_to_spin:100 cycles_to_spin:267 cycles_per_iter:1680.266008 cycles_per_iter_wo_delay:1413.266008
+Queue:stage_ff queue_size:128 iters:10000000 nsecs_to_spin:200 cycles_to_spin:534 cycles_per_iter:635.292722 cycles_per_iter_wo_delay:101.292722
+Queue:stage_lam queue_size:128 iters:10000000 nsecs_to_spin:200 cycles_to_spin:534 cycles_per_iter:2199.244575 cycles_per_iter_wo_delay:1665.244575
+Queue:stage_ff queue_size:128 iters:10000000 nsecs_to_spin:500 cycles_to_spin:1335 cycles_per_iter:1465.775837 cycles_per_iter_wo_delay:130.775837
+Queue:stage_lam queue_size:128 iters:10000000 nsecs_to_spin:500 cycles_to_spin:1335 cycles_per_iter:2658.151083 cycles_per_iter_wo_delay:1323.151083
+Queue:stage_ff queue_size:128 iters:10000000 nsecs_to_spin:1000 cycles_to_spin:2670 cycles_per_iter:2813.413959 cycles_per_iter_wo_delay:143.413959
+Queue:stage_lam queue_size:128 iters:10000000 nsecs_to_spin:1000 cycles_to_spin:2670 cycles_per_iter:3623.380272 cycles_per_iter_wo_delay:953.380272
+Queue:stage_ff queue_size:128 iters:10000000 nsecs_to_spin:2000 cycles_to_spin:5340 cycles_per_iter:5492.559930 cycles_per_iter_wo_delay:152.559930
+Queue:stage_lam queue_size:128 iters:10000000 nsecs_to_spin:2000 cycles_to_spin:5340 cycles_per_iter:6246.569266 cycles_per_iter_wo_delay:906.569266
+Queue:stage_ff queue_size:192 iters:10000000 nsecs_to_spin:1 cycles_to_spin:2 cycles_per_iter:213.465389 cycles_per_iter_wo_delay:211.465389
+Queue:stage_lam queue_size:192 iters:10000000 nsecs_to_spin:1 cycles_to_spin:2 cycles_per_iter:1392.252114 cycles_per_iter_wo_delay:1390.252114
+Queue:stage_ff queue_size:192 iters:10000000 nsecs_to_spin:10 cycles_to_spin:26 cycles_per_iter:216.298274 cycles_per_iter_wo_delay:190.298274
+Queue:stage_lam queue_size:192 iters:10000000 nsecs_to_spin:10 cycles_to_spin:26 cycles_per_iter:1389.660253 cycles_per_iter_wo_delay:1363.660253
+Queue:stage_ff queue_size:192 iters:10000000 nsecs_to_spin:50 cycles_to_spin:133 cycles_per_iter:307.656129 cycles_per_iter_wo_delay:174.656129
+Queue:stage_lam queue_size:192 iters:10000000 nsecs_to_spin:50 cycles_to_spin:133 cycles_per_iter:1479.453721 cycles_per_iter_wo_delay:1346.453721
+Queue:stage_ff queue_size:192 iters:10000000 nsecs_to_spin:100 cycles_to_spin:267 cycles_per_iter:407.561164 cycles_per_iter_wo_delay:140.561164
+Queue:stage_lam queue_size:192 iters:10000000 nsecs_to_spin:100 cycles_to_spin:267 cycles_per_iter:1676.119675 cycles_per_iter_wo_delay:1409.119675
+Queue:stage_ff queue_size:192 iters:10000000 nsecs_to_spin:200 cycles_to_spin:534 cycles_per_iter:615.465263 cycles_per_iter_wo_delay:81.465263
+Queue:stage_lam queue_size:192 iters:10000000 nsecs_to_spin:200 cycles_to_spin:534 cycles_per_iter:2215.623779 cycles_per_iter_wo_delay:1681.623779
+Queue:stage_ff queue_size:192 iters:10000000 nsecs_to_spin:500 cycles_to_spin:1335 cycles_per_iter:1453.557618 cycles_per_iter_wo_delay:118.557618
+Queue:stage_lam queue_size:192 iters:10000000 nsecs_to_spin:500 cycles_to_spin:1335 cycles_per_iter:2663.026625 cycles_per_iter_wo_delay:1328.026625
+Queue:stage_ff queue_size:192 iters:10000000 nsecs_to_spin:1000 cycles_to_spin:2670 cycles_per_iter:2809.915290 cycles_per_iter_wo_delay:139.915290
+Queue:stage_lam queue_size:192 iters:10000000 nsecs_to_spin:1000 cycles_to_spin:2670 cycles_per_iter:3612.427086 cycles_per_iter_wo_delay:942.427086
+Queue:stage_ff queue_size:192 iters:10000000 nsecs_to_spin:2000 cycles_to_spin:5340 cycles_per_iter:5481.573380 cycles_per_iter_wo_delay:141.573380
+Queue:stage_lam queue_size:192 iters:10000000 nsecs_to_spin:2000 cycles_to_spin:5340 cycles_per_iter:6222.227642 cycles_per_iter_wo_delay:882.227642
+Queue:stage_ff queue_size:256 iters:10000000 nsecs_to_spin:1 cycles_to_spin:2 cycles_per_iter:206.371934 cycles_per_iter_wo_delay:204.371934
+Queue:stage_lam queue_size:256 iters:10000000 nsecs_to_spin:1 cycles_to_spin:2 cycles_per_iter:1382.975872 cycles_per_iter_wo_delay:1380.975872
+Queue:stage_ff queue_size:256 iters:10000000 nsecs_to_spin:10 cycles_to_spin:26 cycles_per_iter:206.460661 cycles_per_iter_wo_delay:180.460661
+Queue:stage_lam queue_size:256 iters:10000000 nsecs_to_spin:10 cycles_to_spin:26 cycles_per_iter:1383.875400 cycles_per_iter_wo_delay:1357.875400
+Queue:stage_ff queue_size:256 iters:10000000 nsecs_to_spin:50 cycles_to_spin:133 cycles_per_iter:285.244053 cycles_per_iter_wo_delay:152.244053
+Queue:stage_lam queue_size:256 iters:10000000 nsecs_to_spin:50 cycles_to_spin:133 cycles_per_iter:1481.055521 cycles_per_iter_wo_delay:1348.055521
+Queue:stage_ff queue_size:256 iters:10000000 nsecs_to_spin:100 cycles_to_spin:267 cycles_per_iter:405.073640 cycles_per_iter_wo_delay:138.073640
+Queue:stage_lam queue_size:256 iters:10000000 nsecs_to_spin:100 cycles_to_spin:267 cycles_per_iter:1679.595084 cycles_per_iter_wo_delay:1412.595084
+Queue:stage_ff queue_size:256 iters:10000000 nsecs_to_spin:200 cycles_to_spin:534 cycles_per_iter:600.618584 cycles_per_iter_wo_delay:66.618584
+Queue:stage_lam queue_size:256 iters:10000000 nsecs_to_spin:200 cycles_to_spin:534 cycles_per_iter:2224.491252 cycles_per_iter_wo_delay:1690.491252
+Queue:stage_ff queue_size:256 iters:10000000 nsecs_to_spin:500 cycles_to_spin:1335 cycles_per_iter:1437.908048 cycles_per_iter_wo_delay:102.908048
+Queue:stage_lam queue_size:256 iters:10000000 nsecs_to_spin:500 cycles_to_spin:1335 cycles_per_iter:2679.314557 cycles_per_iter_wo_delay:1344.314557
+Queue:stage_ff queue_size:256 iters:10000000 nsecs_to_spin:1000 cycles_to_spin:2670 cycles_per_iter:2796.554658 cycles_per_iter_wo_delay:126.554658
+Queue:stage_lam queue_size:256 iters:10000000 nsecs_to_spin:1000 cycles_to_spin:2670 cycles_per_iter:3666.591692 cycles_per_iter_wo_delay:996.591692
+Queue:stage_ff queue_size:256 iters:10000000 nsecs_to_spin:2000 cycles_to_spin:5340 cycles_per_iter:5467.834892 cycles_per_iter_wo_delay:127.834892
+Queue:stage_lam queue_size:256 iters:10000000 nsecs_to_spin:2000 cycles_to_spin:5340 cycles_per_iter:6210.251837 cycles_per_iter_wo_delay:870.251837
+Queue:stage_ff queue_size:1024 iters:10000000 nsecs_to_spin:1 cycles_to_spin:2 cycles_per_iter:170.021218 cycles_per_iter_wo_delay:168.021218
+Queue:stage_lam queue_size:1024 iters:10000000 nsecs_to_spin:1 cycles_to_spin:2 cycles_per_iter:1371.772786 cycles_per_iter_wo_delay:1369.772786
+Queue:stage_ff queue_size:1024 iters:10000000 nsecs_to_spin:10 cycles_to_spin:26 cycles_per_iter:172.365353 cycles_per_iter_wo_delay:146.365353
+Queue:stage_lam queue_size:1024 iters:10000000 nsecs_to_spin:10 cycles_to_spin:26 cycles_per_iter:1372.846404 cycles_per_iter_wo_delay:1346.846404
+Queue:stage_ff queue_size:1024 iters:10000000 nsecs_to_spin:50 cycles_to_spin:133 cycles_per_iter:256.293549 cycles_per_iter_wo_delay:123.293549
+Queue:stage_lam queue_size:1024 iters:10000000 nsecs_to_spin:50 cycles_to_spin:133 cycles_per_iter:1471.848948 cycles_per_iter_wo_delay:1338.848948
+Queue:stage_ff queue_size:1024 iters:10000000 nsecs_to_spin:100 cycles_to_spin:267 cycles_per_iter:404.195573 cycles_per_iter_wo_delay:137.195573
+Queue:stage_lam queue_size:1024 iters:10000000 nsecs_to_spin:100 cycles_to_spin:267 cycles_per_iter:1673.472644 cycles_per_iter_wo_delay:1406.472644
+Queue:stage_ff queue_size:1024 iters:10000000 nsecs_to_spin:200 cycles_to_spin:534 cycles_per_iter:599.520855 cycles_per_iter_wo_delay:65.520855
+Queue:stage_lam queue_size:1024 iters:10000000 nsecs_to_spin:200 cycles_to_spin:534 cycles_per_iter:2222.350430 cycles_per_iter_wo_delay:1688.350430
+Queue:stage_ff queue_size:1024 iters:10000000 nsecs_to_spin:500 cycles_to_spin:1335 cycles_per_iter:1428.379259 cycles_per_iter_wo_delay:93.379259
+Queue:stage_lam queue_size:1024 iters:10000000 nsecs_to_spin:500 cycles_to_spin:1335 cycles_per_iter:2668.608715 cycles_per_iter_wo_delay:1333.608715
+Queue:stage_ff queue_size:1024 iters:10000000 nsecs_to_spin:1000 cycles_to_spin:2670 cycles_per_iter:2786.067029 cycles_per_iter_wo_delay:116.067029
+Queue:stage_lam queue_size:1024 iters:10000000 nsecs_to_spin:1000 cycles_to_spin:2670 cycles_per_iter:3658.636534 cycles_per_iter_wo_delay:988.636534
+Queue:stage_ff queue_size:1024 iters:10000000 nsecs_to_spin:2000 cycles_to_spin:5340 cycles_per_iter:5470.309500 cycles_per_iter_wo_delay:130.309500
+Queue:stage_lam queue_size:1024 iters:10000000 nsecs_to_spin:2000 cycles_to_spin:5340 cycles_per_iter:6199.510575 cycles_per_iter_wo_delay:859.510575
+Queue:stage_ff queue_size:2048 iters:10000000 nsecs_to_spin:1 cycles_to_spin:2 cycles_per_iter:158.194941 cycles_per_iter_wo_delay:156.194941
+Queue:stage_lam queue_size:2048 iters:10000000 nsecs_to_spin:1 cycles_to_spin:2 cycles_per_iter:1373.884807 cycles_per_iter_wo_delay:1371.884807
+Queue:stage_ff queue_size:2048 iters:10000000 nsecs_to_spin:10 cycles_to_spin:26 cycles_per_iter:157.769731 cycles_per_iter_wo_delay:131.769731
+Queue:stage_lam queue_size:2048 iters:10000000 nsecs_to_spin:10 cycles_to_spin:26 cycles_per_iter:1375.613394 cycles_per_iter_wo_delay:1349.613394
+Queue:stage_ff queue_size:2048 iters:10000000 nsecs_to_spin:50 cycles_to_spin:133 cycles_per_iter:239.031171 cycles_per_iter_wo_delay:106.031171
+Queue:stage_lam queue_size:2048 iters:10000000 nsecs_to_spin:50 cycles_to_spin:133 cycles_per_iter:1474.722303 cycles_per_iter_wo_delay:1341.722303
+Queue:stage_ff queue_size:2048 iters:10000000 nsecs_to_spin:100 cycles_to_spin:267 cycles_per_iter:362.799719 cycles_per_iter_wo_delay:95.799719
+Queue:stage_lam queue_size:2048 iters:10000000 nsecs_to_spin:100 cycles_to_spin:267 cycles_per_iter:1668.619060 cycles_per_iter_wo_delay:1401.619060
+Queue:stage_ff queue_size:2048 iters:10000000 nsecs_to_spin:200 cycles_to_spin:534 cycles_per_iter:597.131515 cycles_per_iter_wo_delay:63.131515
+Queue:stage_lam queue_size:2048 iters:10000000 nsecs_to_spin:200 cycles_to_spin:534 cycles_per_iter:2220.560448 cycles_per_iter_wo_delay:1686.560448
+Queue:stage_ff queue_size:2048 iters:10000000 nsecs_to_spin:500 cycles_to_spin:1335 cycles_per_iter:1427.270708 cycles_per_iter_wo_delay:92.270708
+Queue:stage_lam queue_size:2048 iters:10000000 nsecs_to_spin:500 cycles_to_spin:1335 cycles_per_iter:2672.191203 cycles_per_iter_wo_delay:1337.191203
+Queue:stage_ff queue_size:2048 iters:10000000 nsecs_to_spin:1000 cycles_to_spin:2670 cycles_per_iter:2783.068284 cycles_per_iter_wo_delay:113.068284
+Queue:stage_lam queue_size:2048 iters:10000000 nsecs_to_spin:1000 cycles_to_spin:2670 cycles_per_iter:3600.166523 cycles_per_iter_wo_delay:930.166523
+Queue:stage_ff queue_size:2048 iters:10000000 nsecs_to_spin:2000 cycles_to_spin:5340 cycles_per_iter:5470.209955 cycles_per_iter_wo_delay:130.209955
+Queue:stage_lam queue_size:2048 iters:10000000 nsecs_to_spin:2000 cycles_to_spin:5340 cycles_per_iter:6202.408511 cycles_per_iter_wo_delay:862.408511

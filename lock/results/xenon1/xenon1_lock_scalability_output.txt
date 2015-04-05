@@ -1,0 +1,43 @@
+Thread mapping:
+Thread 0 @ package 0, core 0, hw thread 0 (cpuid: 0)
+Thread 1 @ package 1, core 0, hw thread 0 (cpuid: 1)
+Thread 2 @ package 0, core 0, hw thread 1 (cpuid: 2)
+Thread 3 @ package 1, core 0, hw thread 1 (cpuid: 3)
+
+
+Nthreads=1
+==============
+	nthreads:1 	lock:SPIN_LOCK_ALIGNED 	cycles:107.978866
+	nthreads:1 	lock:SPIN_LOCK_ALIGNED_PAUSED 	cycles:107.903924
+	nthreads:1 	lock:SPIN_LOCK_TTAS 	cycles:102.762057
+	nthreads:1 	lock:SPIN_LOCK_TTAS_PAUSED 	cycles:102.763247
+	nthreads:1 	lock:PTHREAD_MUTEX 	cycles:214.811984
+	nthreads:1 	lock:DELAY 	cycles:15.018363
+
+Nthreads=2
+==============
+	nthreads:2 	lock:SPIN_LOCK_ALIGNED 	cycles:473.496336
+	nthreads:2 	lock:SPIN_LOCK_ALIGNED_PAUSED 	cycles:701.326256
+	nthreads:2 	lock:SPIN_LOCK_TTAS 	cycles:496.081427
+	nthreads:2 	lock:SPIN_LOCK_TTAS_PAUSED 	cycles:587.875906
+	nthreads:2 	lock:PTHREAD_MUTEX 	cycles:1643.435388
+	nthreads:2 	lock:DELAY 	cycles:15.021593
+
+Nthreads=3
+==============
+	nthreads:3 	lock:SPIN_LOCK_ALIGNED 	cycles:1440.247602
+	nthreads:3 	lock:SPIN_LOCK_ALIGNED_PAUSED 	cycles:1559.317675
+	nthreads:3 	lock:SPIN_LOCK_TTAS 	cycles:1381.058093
+	nthreads:3 	lock:SPIN_LOCK_TTAS_PAUSED 	cycles:1653.664491
+	nthreads:3 	lock:PTHREAD_MUTEX 	cycles:3109.812595
+	nthreads:3 	lock:DELAY 	cycles:15.027093
+
+Nthreads=4
+==============
+	nthreads:4 	lock:SPIN_LOCK_ALIGNED 	cycles:2259.334970
+	nthreads:4 	lock:SPIN_LOCK_ALIGNED_PAUSED 	cycles:2373.556422
+	nthreads:4 	lock:SPIN_LOCK_TTAS 	cycles:2506.502644
+	nthreads:4 	lock:SPIN_LOCK_TTAS_PAUSED 	cycles:2414.070881
+	nthreads:4 	lock:PTHREAD_MUTEX 	cycles:6360.485548
+	nthreads:4 	lock:DELAY 	cycles:15.047068
+

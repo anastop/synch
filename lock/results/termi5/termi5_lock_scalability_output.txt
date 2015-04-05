@@ -1,0 +1,243 @@
+Thread mapping:
+Thread 0 @ package 0, core 0, hw thread 0 (cpuid: 0)
+Thread 1 @ package 0, core 1, hw thread 0 (cpuid: 1)
+Thread 2 @ package 0, core 2, hw thread 0 (cpuid: 2)
+Thread 3 @ package 0, core 3, hw thread 0 (cpuid: 3)
+Thread 4 @ package 0, core 4, hw thread 0 (cpuid: 4)
+Thread 5 @ package 0, core 5, hw thread 0 (cpuid: 5)
+Thread 6 @ package 1, core 0, hw thread 0 (cpuid: 6)
+Thread 7 @ package 1, core 1, hw thread 0 (cpuid: 7)
+Thread 8 @ package 1, core 2, hw thread 0 (cpuid: 8)
+Thread 9 @ package 1, core 3, hw thread 0 (cpuid: 9)
+Thread 10 @ package 1, core 4, hw thread 0 (cpuid: 10)
+Thread 11 @ package 1, core 5, hw thread 0 (cpuid: 11)
+Thread 12 @ package 0, core 0, hw thread 1 (cpuid: 12)
+Thread 13 @ package 0, core 1, hw thread 1 (cpuid: 13)
+Thread 14 @ package 0, core 2, hw thread 1 (cpuid: 14)
+Thread 15 @ package 0, core 3, hw thread 1 (cpuid: 15)
+Thread 16 @ package 0, core 4, hw thread 1 (cpuid: 16)
+Thread 17 @ package 0, core 5, hw thread 1 (cpuid: 17)
+Thread 18 @ package 1, core 0, hw thread 1 (cpuid: 18)
+Thread 19 @ package 1, core 1, hw thread 1 (cpuid: 19)
+Thread 20 @ package 1, core 2, hw thread 1 (cpuid: 20)
+Thread 21 @ package 1, core 3, hw thread 1 (cpuid: 21)
+Thread 22 @ package 1, core 4, hw thread 1 (cpuid: 22)
+Thread 23 @ package 1, core 5, hw thread 1 (cpuid: 23)
+
+
+Nthreads=1
+==============
+	nthreads:1 	lock:SPIN_LOCK_ALIGNED 	cycles:20.980792
+	nthreads:1 	lock:SPIN_LOCK_ALIGNED_PAUSED 	cycles:20.952060
+	nthreads:1 	lock:SPIN_LOCK_TTAS 	cycles:19.235618
+	nthreads:1 	lock:SPIN_LOCK_TTAS_PAUSED 	cycles:19.205399
+	nthreads:1 	lock:PTHREAD_MUTEX 	cycles:50.197399
+	nthreads:1 	lock:DELAY 	cycles:7.860222
+
+Nthreads=2
+==============
+	nthreads:2 	lock:SPIN_LOCK_ALIGNED 	cycles:188.021469
+	nthreads:2 	lock:SPIN_LOCK_ALIGNED_PAUSED 	cycles:152.496687
+	nthreads:2 	lock:SPIN_LOCK_TTAS 	cycles:122.478545
+	nthreads:2 	lock:SPIN_LOCK_TTAS_PAUSED 	cycles:108.489149
+	nthreads:2 	lock:PTHREAD_MUTEX 	cycles:393.380497
+	nthreads:2 	lock:DELAY 	cycles:7.885866
+
+Nthreads=3
+==============
+	nthreads:3 	lock:SPIN_LOCK_ALIGNED 	cycles:340.741325
+	nthreads:3 	lock:SPIN_LOCK_ALIGNED_PAUSED 	cycles:477.832544
+	nthreads:3 	lock:SPIN_LOCK_TTAS 	cycles:326.256259
+	nthreads:3 	lock:SPIN_LOCK_TTAS_PAUSED 	cycles:432.464728
+	nthreads:3 	lock:PTHREAD_MUTEX 	cycles:1011.398886
+	nthreads:3 	lock:DELAY 	cycles:8.192585
+
+Nthreads=4
+==============
+	nthreads:4 	lock:SPIN_LOCK_ALIGNED 	cycles:625.580774
+	nthreads:4 	lock:SPIN_LOCK_ALIGNED_PAUSED 	cycles:588.932862
+	nthreads:4 	lock:SPIN_LOCK_TTAS 	cycles:612.897172
+	nthreads:4 	lock:SPIN_LOCK_TTAS_PAUSED 	cycles:567.912928
+	nthreads:4 	lock:PTHREAD_MUTEX 	cycles:1355.699188
+	nthreads:4 	lock:DELAY 	cycles:8.200108
+
+Nthreads=5
+==============
+	nthreads:5 	lock:SPIN_LOCK_ALIGNED 	cycles:755.666443
+	nthreads:5 	lock:SPIN_LOCK_ALIGNED_PAUSED 	cycles:742.273875
+	nthreads:5 	lock:SPIN_LOCK_TTAS 	cycles:754.270383
+	nthreads:5 	lock:SPIN_LOCK_TTAS_PAUSED 	cycles:790.686293
+	nthreads:5 	lock:PTHREAD_MUTEX 	cycles:1474.460999
+	nthreads:5 	lock:DELAY 	cycles:8.196489
+
+Nthreads=6
+==============
+	nthreads:6 	lock:SPIN_LOCK_ALIGNED 	cycles:960.577457
+	nthreads:6 	lock:SPIN_LOCK_ALIGNED_PAUSED 	cycles:937.428301
+	nthreads:6 	lock:SPIN_LOCK_TTAS 	cycles:658.167565
+	nthreads:6 	lock:SPIN_LOCK_TTAS_PAUSED 	cycles:982.741826
+	nthreads:6 	lock:PTHREAD_MUTEX 	cycles:1443.971731
+	nthreads:6 	lock:DELAY 	cycles:8.204845
+
+Nthreads=7
+==============
+	nthreads:7 	lock:SPIN_LOCK_ALIGNED 	cycles:1239.616737
+	nthreads:7 	lock:SPIN_LOCK_ALIGNED_PAUSED 	cycles:1151.651632
+	nthreads:7 	lock:SPIN_LOCK_TTAS 	cycles:895.349149
+	nthreads:7 	lock:SPIN_LOCK_TTAS_PAUSED 	cycles:1199.659320
+	nthreads:7 	lock:PTHREAD_MUTEX 	cycles:1635.333992
+	nthreads:7 	lock:DELAY 	cycles:8.193850
+
+Nthreads=8
+==============
+	nthreads:8 	lock:SPIN_LOCK_ALIGNED 	cycles:1501.115596
+	nthreads:8 	lock:SPIN_LOCK_ALIGNED_PAUSED 	cycles:1404.420521
+	nthreads:8 	lock:SPIN_LOCK_TTAS 	cycles:1348.945251
+	nthreads:8 	lock:SPIN_LOCK_TTAS_PAUSED 	cycles:1455.201445
+	nthreads:8 	lock:PTHREAD_MUTEX 	cycles:1709.863269
+	nthreads:8 	lock:DELAY 	cycles:8.214197
+
+Nthreads=9
+==============
+	nthreads:9 	lock:SPIN_LOCK_ALIGNED 	cycles:1412.782753
+	nthreads:9 	lock:SPIN_LOCK_ALIGNED_PAUSED 	cycles:1390.720175
+	nthreads:9 	lock:SPIN_LOCK_TTAS 	cycles:1065.272954
+	nthreads:9 	lock:SPIN_LOCK_TTAS_PAUSED 	cycles:1408.699485
+	nthreads:9 	lock:PTHREAD_MUTEX 	cycles:1884.886409
+	nthreads:9 	lock:DELAY 	cycles:8.206432
+
+Nthreads=10
+==============
+	nthreads:10 	lock:SPIN_LOCK_ALIGNED 	cycles:1542.428706
+	nthreads:10 	lock:SPIN_LOCK_ALIGNED_PAUSED 	cycles:1498.785448
+	nthreads:10 	lock:SPIN_LOCK_TTAS 	cycles:1475.405391
+	nthreads:10 	lock:SPIN_LOCK_TTAS_PAUSED 	cycles:1694.197141
+	nthreads:10 	lock:PTHREAD_MUTEX 	cycles:2052.877555
+	nthreads:10 	lock:DELAY 	cycles:8.229341
+
+Nthreads=11
+==============
+	nthreads:11 	lock:SPIN_LOCK_ALIGNED 	cycles:1818.770804
+	nthreads:11 	lock:SPIN_LOCK_ALIGNED_PAUSED 	cycles:1731.527787
+	nthreads:11 	lock:SPIN_LOCK_TTAS 	cycles:1831.504489
+	nthreads:11 	lock:SPIN_LOCK_TTAS_PAUSED 	cycles:2057.256465
+	nthreads:11 	lock:PTHREAD_MUTEX 	cycles:2221.881215
+	nthreads:11 	lock:DELAY 	cycles:8.225346
+
+Nthreads=12
+==============
+	nthreads:12 	lock:SPIN_LOCK_ALIGNED 	cycles:2013.929387
+	nthreads:12 	lock:SPIN_LOCK_ALIGNED_PAUSED 	cycles:1870.930242
+	nthreads:12 	lock:SPIN_LOCK_TTAS 	cycles:1865.093756
+	nthreads:12 	lock:SPIN_LOCK_TTAS_PAUSED 	cycles:2286.427455
+	nthreads:12 	lock:PTHREAD_MUTEX 	cycles:2406.353186
+	nthreads:12 	lock:DELAY 	cycles:8.226418
+
+Nthreads=13
+==============
+	nthreads:13 	lock:SPIN_LOCK_ALIGNED 	cycles:2080.604557
+	nthreads:13 	lock:SPIN_LOCK_ALIGNED_PAUSED 	cycles:1987.881982
+	nthreads:13 	lock:SPIN_LOCK_TTAS 	cycles:2143.693689
+	nthreads:13 	lock:SPIN_LOCK_TTAS_PAUSED 	cycles:2406.567947
+	nthreads:13 	lock:PTHREAD_MUTEX 	cycles:2577.819233
+	nthreads:13 	lock:DELAY 	cycles:9.114141
+
+Nthreads=14
+==============
+	nthreads:14 	lock:SPIN_LOCK_ALIGNED 	cycles:2170.219285
+	nthreads:14 	lock:SPIN_LOCK_ALIGNED_PAUSED 	cycles:2092.680580
+	nthreads:14 	lock:SPIN_LOCK_TTAS 	cycles:2493.724091
+	nthreads:14 	lock:SPIN_LOCK_TTAS_PAUSED 	cycles:2466.205791
+	nthreads:14 	lock:PTHREAD_MUTEX 	cycles:2742.070325
+	nthreads:14 	lock:DELAY 	cycles:9.099272
+
+Nthreads=15
+==============
+	nthreads:15 	lock:SPIN_LOCK_ALIGNED 	cycles:2195.541879
+	nthreads:15 	lock:SPIN_LOCK_ALIGNED_PAUSED 	cycles:2301.703278
+	nthreads:15 	lock:SPIN_LOCK_TTAS 	cycles:2714.575343
+	nthreads:15 	lock:SPIN_LOCK_TTAS_PAUSED 	cycles:2812.819519
+	nthreads:15 	lock:PTHREAD_MUTEX 	cycles:2882.384094
+	nthreads:15 	lock:DELAY 	cycles:9.104217
+
+Nthreads=16
+==============
+	nthreads:16 	lock:SPIN_LOCK_ALIGNED 	cycles:2549.911111
+	nthreads:16 	lock:SPIN_LOCK_ALIGNED_PAUSED 	cycles:2492.942327
+	nthreads:16 	lock:SPIN_LOCK_TTAS 	cycles:2653.122031
+	nthreads:16 	lock:SPIN_LOCK_TTAS_PAUSED 	cycles:2932.533595
+	nthreads:16 	lock:PTHREAD_MUTEX 	cycles:3001.973286
+	nthreads:16 	lock:DELAY 	cycles:9.112176
+
+Nthreads=17
+==============
+	nthreads:17 	lock:SPIN_LOCK_ALIGNED 	cycles:2852.251360
+	nthreads:17 	lock:SPIN_LOCK_ALIGNED_PAUSED 	cycles:2737.725493
+	nthreads:17 	lock:SPIN_LOCK_TTAS 	cycles:2784.337099
+	nthreads:17 	lock:SPIN_LOCK_TTAS_PAUSED 	cycles:3109.410529
+	nthreads:17 	lock:PTHREAD_MUTEX 	cycles:3132.909705
+	nthreads:17 	lock:DELAY 	cycles:9.116345
+
+Nthreads=18
+==============
+	nthreads:18 	lock:SPIN_LOCK_ALIGNED 	cycles:3486.622494
+	nthreads:18 	lock:SPIN_LOCK_ALIGNED_PAUSED 	cycles:2878.565666
+	nthreads:18 	lock:SPIN_LOCK_TTAS 	cycles:3353.835745
+	nthreads:18 	lock:SPIN_LOCK_TTAS_PAUSED 	cycles:3382.955442
+	nthreads:18 	lock:PTHREAD_MUTEX 	cycles:3265.131660
+	nthreads:18 	lock:DELAY 	cycles:9.119250
+
+Nthreads=19
+==============
+	nthreads:19 	lock:SPIN_LOCK_ALIGNED 	cycles:3847.063310
+	nthreads:19 	lock:SPIN_LOCK_ALIGNED_PAUSED 	cycles:3186.904141
+	nthreads:19 	lock:SPIN_LOCK_TTAS 	cycles:3400.186338
+	nthreads:19 	lock:SPIN_LOCK_TTAS_PAUSED 	cycles:3388.638381
+	nthreads:19 	lock:PTHREAD_MUTEX 	cycles:3463.683747
+	nthreads:19 	lock:DELAY 	cycles:9.134034
+
+Nthreads=20
+==============
+	nthreads:20 	lock:SPIN_LOCK_ALIGNED 	cycles:4000.266621
+	nthreads:20 	lock:SPIN_LOCK_ALIGNED_PAUSED 	cycles:3398.938000
+	nthreads:20 	lock:SPIN_LOCK_TTAS 	cycles:3486.804063
+	nthreads:20 	lock:SPIN_LOCK_TTAS_PAUSED 	cycles:3387.770006
+	nthreads:20 	lock:PTHREAD_MUTEX 	cycles:3636.304801
+	nthreads:20 	lock:DELAY 	cycles:9.128389
+
+Nthreads=21
+==============
+	nthreads:21 	lock:SPIN_LOCK_ALIGNED 	cycles:4732.480453
+	nthreads:21 	lock:SPIN_LOCK_ALIGNED_PAUSED 	cycles:3968.244993
+	nthreads:21 	lock:SPIN_LOCK_TTAS 	cycles:3403.063786
+	nthreads:21 	lock:SPIN_LOCK_TTAS_PAUSED 	cycles:3354.610461
+	nthreads:21 	lock:PTHREAD_MUTEX 	cycles:3790.761231
+	nthreads:21 	lock:DELAY 	cycles:9.132618
+
+Nthreads=22
+==============
+	nthreads:22 	lock:SPIN_LOCK_ALIGNED 	cycles:5552.153429
+	nthreads:22 	lock:SPIN_LOCK_ALIGNED_PAUSED 	cycles:4175.546673
+	nthreads:22 	lock:SPIN_LOCK_TTAS 	cycles:3704.147769
+	nthreads:22 	lock:SPIN_LOCK_TTAS_PAUSED 	cycles:3616.988649
+	nthreads:22 	lock:PTHREAD_MUTEX 	cycles:3932.597759
+	nthreads:22 	lock:DELAY 	cycles:9.136736
+
+Nthreads=23
+==============
+	nthreads:23 	lock:SPIN_LOCK_ALIGNED 	cycles:6574.394731
+	nthreads:23 	lock:SPIN_LOCK_ALIGNED_PAUSED 	cycles:4938.120682
+	nthreads:23 	lock:SPIN_LOCK_TTAS 	cycles:3730.367094
+	nthreads:23 	lock:SPIN_LOCK_TTAS_PAUSED 	cycles:3607.871427
+	nthreads:23 	lock:PTHREAD_MUTEX 	cycles:4071.082043
+	nthreads:23 	lock:DELAY 	cycles:9.139389
+
+Nthreads=24
+==============
+	nthreads:24 	lock:SPIN_LOCK_ALIGNED 	cycles:6873.742925
+	nthreads:24 	lock:SPIN_LOCK_ALIGNED_PAUSED 	cycles:5544.259455
+	nthreads:24 	lock:SPIN_LOCK_TTAS 	cycles:3744.441518
+	nthreads:24 	lock:SPIN_LOCK_TTAS_PAUSED 	cycles:3699.475959
+	nthreads:24 	lock:PTHREAD_MUTEX 	cycles:4222.112417
+	nthreads:24 	lock:DELAY 	cycles:9.142766
+
